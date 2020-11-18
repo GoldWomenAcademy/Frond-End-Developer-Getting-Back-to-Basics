@@ -6,11 +6,37 @@
     <title>Front-End Developper | Getting Back to Basics </title>
 </head>
 <body>
-    <form action="" method=""></form>
+    <form action="" method="">
         <label for="prenom">Prénom :</label><br>
-        <input type="text" id="prenom" name="prenom">
+        <input type="text" id="prenom" name="prenom" placeholder="votre prénom">
+        <br>
+        <label for="nom">Nom :</label><br>
+        <input type="text" id="nom" name="nom" placeholder="votre nom">
+        <br><br>
+        <textarea name="msg" cols="30" rows="10"></textarea>
+        <br><br> 
+
+        <select name="pays" id="pays">
+            <option value="canada">Canada</option>
+            <option value="australie">Australie</option>
+            <option value="etats-unis">Etats-Unis</option>
+            <option value="portugal">Portugal</option>
+        </select>
+
+        <input list="dancer">
+        <datalist id="dancer">
+            <option value="Rock">
+            <option value="Salsa">
+            <option value="Valse">
+            <option value="Batchata">
+
+        </datalist>
+        
 
 
-     
+        <br><br>
+        <button>Envoyer</button>
+
+    </form>
 </body>
 </html>
